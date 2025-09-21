@@ -9,13 +9,14 @@
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city..."  required class="search-form-input" />
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city..."  required class="search-form-input"
+            id="search-form-input" />
             <input type="submit" value="Search"  class="search-form-button"/>
          </form>
     </header>
     <main>
-    <h1 class="weather-app-city">Durban</h1>
+    <h1 class="weather-app-city" id="city">Durban</h1>
     <div class="weather-app-data">
     <div>
     <p class="weather-app-details">
@@ -38,5 +39,6 @@
         and hosted on <a href="https://practiseapp.netlify.app/" target="_blank">Netlify</a>
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
