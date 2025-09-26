@@ -106,3 +106,19 @@ a {
 .weather-forecast-temperature {
   padding: 0 10px;
 }
+@media (max-width: 930px) {
+  .weather-app {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer {
+    align-items: center;
+  }
+  .weather-forecast{
+    align-items: center;
+    flex-direction: column;
+  }
+   .weather-app-temperature-container {
+    max-width: 90%;
+  }
+  }
